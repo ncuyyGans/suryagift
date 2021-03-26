@@ -38,7 +38,7 @@ if(file_exists("config.json")){
     echo "| 2. Daftar \n";
     echo "| Pilih: ";
     $pilih = trim(fgets(STDIN));
-    if($pilih !== '1'){
+    if($pilih !== '2'){
         goto daftar;
     }else{goto login;}
 }
