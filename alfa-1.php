@@ -32,7 +32,7 @@ if(file_exists("config.json")){
     $arr2 = json_decode(file_get_contents('config.json'), true);
     $token = $arr2['token'];
     $memberid = $arr2['id'];
-    $hp = $arr2['hp'];
+    $hp = $arr2['083181716387'];
     echo "| Anda sudah login menggunakan nomer hp $hp \n";
     echo "| 1. Login \n";
     echo "| 2. Daftar \n";
